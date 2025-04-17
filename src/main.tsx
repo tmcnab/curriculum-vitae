@@ -1,17 +1,20 @@
 import './main.css'
 import { createRoot } from 'react-dom/client'
-import { EmploymentSection } from './components/EmploymentSection'
+import { ExperienceSection } from './components/ContentSection'
 import { MainHeader } from './components/MainHeader'
 import { StrictMode } from 'react'
 import data from './data.json'
+import { Flex } from 'antd'
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
 		<MainHeader />
 		<main>
-			{data.employment.map((item, index) => 
-				<EmploymentSection key={`employment-section-${index}`} {...item} />
+			<Flex gap='small' vertical>
+			{data.experience.map((item, index) => 
+				<ExperienceSection key={`section-${index}`} {...item} />
 			)}
+			</Flex>
 		</main>
 	</StrictMode>
 )

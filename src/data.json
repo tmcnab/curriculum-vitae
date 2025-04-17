@@ -1,5 +1,15 @@
 {
-	"employment": [
+	"experience": [
+		{
+			"dates": {
+				"from": "09/24",
+				"to": "06/25"
+			},
+			"description": "",
+			"organization": null,
+			"tags": [],
+			"title": "Sabatical / Professional Development"
+		},
 		{
 			"dates": {
 				"from": "02/19",
@@ -32,6 +42,20 @@
 				"Django"
 			],
 			"title": "Software Engineer"
+		},
+		{
+			"dates": {
+				"from": "XX/YY",
+				"to": "XX/YY"
+			},
+			"organization": {
+				"name": "Griffith University",
+				"url": "https://www.griffith.edu.au/"
+			},
+			"tags": [
+				"GPA X.X"
+			],
+			"title": "B. Eng in Microelectronic Engineering (Computer Systems)"
 		}
 	]
 }
