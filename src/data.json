@@ -6,6 +6,7 @@
 				"to": "06/25"
 			},
 			"description": "",
+			"location": null,
 			"organization": null,
 			"tags": [],
 			"title": "Sabatical / Professional Development"
@@ -15,16 +16,18 @@
 				"from": "02/19",
 				"to": "08/24"
 			},
+			"location": "Remote",
 			"organization": {
 				"name": "Tripleseat",
 				"url": "https://tripleseat.com/"
 			},
 			"tags": [
-				"CSS3",
-				"GraphQL",
-				"jQuery",
+				"Ruby on Rails",
 				"React",
-				"Ruby on Rails"
+				"TypeScript",
+				"MySQL",
+				"GraphQL",
+				"jQuery"
 			],
 			"title": "Senior Software Engineer"
 		},
@@ -33,8 +36,9 @@
 				"from": "XX/YY",
 				"to": "XX/YY"
 			},
+			"location": "Remote",
 			"organization": {
-				"name": "Monetate",
+				"name": "Monetate, Inc",
 				"url": "https://monetate.com/"
 			},
 			"tags": [
@@ -48,6 +52,7 @@
 				"from": "XX/YY",
 				"to": "XX/YY"
 			},
+			"location": "Brisbane, Australia",
 			"organization": {
 				"name": "Griffith University",
 				"url": "https://www.griffith.edu.au/"
