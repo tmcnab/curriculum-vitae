@@ -1,0 +1,37 @@
+{
+	"employment": [
+		{
+			"dates": {
+				"from": "02/19",
+				"to": "08/24"
+			},
+			"organization": {
+				"name": "Tripleseat",
+				"url": "https://tripleseat.com/"
+			},
+			"tags": [
+				"CSS3",
+				"GraphQL",
+				"jQuery",
+				"React",
+				"Ruby on Rails"
+			],
+			"title": "Senior Software Engineer"
+		},
+		{
+			"dates": {
+				"from": "XX/YY",
+				"to": "XX/YY"
+			},
+			"organization": {
+				"name": "Monetate",
+				"url": "https://monetate.com/"
+			},
+			"tags": [
+				"Python",
+				"Django"
+			],
+			"title": "Software Engineer"
+		}
+	]
+}
