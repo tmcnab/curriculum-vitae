@@ -16,6 +16,7 @@
 				"from": "02/19",
 				"to": "08/24"
 			},
+			"description": "- Developed upon a large-scale Ruby on Rails multi-tenant SaaS product, implementing large scale features and correcting defects\n- Individual contributor and as a team lead.\n- Spearheaded the initiative to migrate a legacy jQuery/Stimulus frontend stack to React, Apollo and GraphQL into both the backend and the distribution pipeline (CI/CD)\n- Responsible for shaping the development of the frontend standards and architecture.\n- Contributed to helping grow an engineering team of five to more than twenty through multiple funding rounds including developing engineering role responsibilities.",
 			"location": "Remote",
 			"organization": {
 				"name": "Tripleseat",
@@ -36,6 +37,7 @@
 				"from": "XX/YY",
 				"to": "XX/YY"
 			},
+			"description": "A remote product engineer tasked with developing and maintaining a large client-facing web application written in Django, Closure (Legacy) and React. Process for product development was iterative, taking mocks in various levels of completion and turning them into performant features ready for many thousands of professional users. In addition to stints performing bug fixing and more generalized features, notable teams I've worked on include:\n\n- non/contextualized multi-armed bandit machine learning for A/B/N testing (\"bandits\")\n- data visualizations fed from advanced machine learning models (\"segmentation\")\n- both legacy (\"merch\") and next-gen (\"recs\") merchandising systems\n- dynamic image manipulation and rendering for speed (\"content\")\n\nMy greatest achievement at Monetate was shifting our frontend stack from legacy google closure library/compiler to modern React (with linting, testing).",
 			"location": "Remote",
 			"organization": {
 				"name": "Monetate, Inc",

@@ -1,5 +1,6 @@
 import { Employment } from '../types/Employment'
 import { Card, Flex, Tag, Typography } from 'antd'
+import ReactMarkdown from 'react-markdown'
 
 function Dot() {
 	return <span>&nbsp;•&nbsp;</span>
@@ -31,7 +32,7 @@ export function ExperienceSection(props: Employment) {
 				</Flex>
 			</header>
 			<div>
-				{props.description}
+				<ReactMarkdown>{props.description}</ReactMarkdown>
 			</div>
 			<footer>
 				{props.tags.map((value, index) => <Tag key={index}>{value}</Tag>)}
