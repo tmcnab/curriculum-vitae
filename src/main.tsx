@@ -8,13 +8,15 @@ import { Flex } from 'antd'
 
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
-		<MainHeader />
-		<main>
-			<Flex gap='small' vertical>
-			{data.experience.map((item, index) => 
-				<ExperienceSection key={`section-${index}`} {...item} />
-			)}
-			</Flex>
-		</main>
+		<Flex gap='small' vertical>
+			<MainHeader />
+			<main>
+				<Flex gap='small' vertical>
+					{data.experience.map((item, index) =>
+						<ExperienceSection key={`section-${index}`} {...item} />
+					)}
+				</Flex>
+			</main>
+		</Flex>
 	</StrictMode>
 )
